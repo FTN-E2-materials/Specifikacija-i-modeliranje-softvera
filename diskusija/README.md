@@ -1,4 +1,4 @@
-<h1 align = "center"> Kretanje kroz diskusiju </h1>
+<h1 align = "center"> 06. Vežbanje slučajeva korišćenja i dijagrama klasa </h1>
 
 ### Materijal 
   - [predavanja](https://github.com/vlaksi/Specifikacija-i-modeliranje-softvera/blob/master/Predavanja/SIMS%20-%2005%20-%20UML%20i%20dijagrami%20klasa.pdf)
