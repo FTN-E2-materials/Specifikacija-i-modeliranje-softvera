@@ -1,14 +1,14 @@
-import dto.Invoice;
-import dto.Performance;
-import dto.Play;
+import model.Invoice;
+import model.Performance;
+import model.Play;
+import service.InvoicePrinter;
 
 public class Main {
     public static void main(String[] args) {
         Invoice testInvoice = createTestInvoice();
 
-        PerformanceInvoiceCalculator3 invoiceCalculator = new PerformanceInvoiceCalculator3();
-        System.out.println(invoiceCalculator.printInvoiceStatement(testInvoice));
-
+        InvoicePrinter invoicePrinter = new InvoicePrinter();
+        System.out.println(invoicePrinter.printInvoiceStatement(testInvoice));
 
         //Will print the following text for the testInvoice:
         //Statement for bigCorp
