@@ -2,9 +2,10 @@
 
 [Domaci projekat](https://github.com/vlaksi/Specifikacija-i-modeliranje-softvera/tree/master/diskusija/diskusija-11/Homework/src) smo podelili u tri paketa:
   - ***model***: Osnovni model podataka, slican beans-ima i POJO klasama.
-  - ***dto***: Obicn strukture podataka koje cemo prenositi kao parametre kroz neku metodu kako bismo ispegli gomilanje parametara.
+  - ***dto***: Obicne strukture podataka koje cemo prenositi kao parametre kroz neku metodu kako bismo ispegli gomilanje parametara.
   - ***service***: Objekti koji vrsi poslovnu logiku.
-  
+
+Testiranje nije automatizovano, ali se pokretanjem klase Main vrsi osnovno testiranje.
 
 ### Materijal 
   - [predavanja 1](https://github.com/vlaksi/Specifikacija-i-modeliranje-softvera/blob/master/Predavanja/SIMS%20-%2008%20-%20Čist%20dizajn%20koda%20I.pdf)
