@@ -1,9 +1,5 @@
 ﻿<h1 align = "center"> 12. Cist dizajn koda </h1>
 
-
-### Materijal 
-
-
   
 ### Radili
   - [Igor Roncevic](https://github.com/igorroncevic)
