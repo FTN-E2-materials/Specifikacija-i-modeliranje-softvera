@@ -24,9 +24,9 @@ public class ATMPrinter {
 
     /*
         Napomena: printingPattern nije morao mozda da postoji, ali zbog zelje
-        da sve bude na istom nivou apstrakcije ostavljam ipak metodu.
+        da sve bude na istom nivou apstrakcije ostavljamo ipak metodu.
 
-        Samim tim kasnije patern stampanja moze kasnije da se promeni.
+        Samim tim kasnije patern stampanja moze da se promeni.
      */
     private void printPattern(String nameOfPrintingState, Double state){
         StringBuilder formatPart = formatting(nameOfPrintingState, state);
@@ -51,10 +51,10 @@ public class ATMPrinter {
     }
 
     /*
-        Nisam siguran da li sam dobro razumeo ovaj deo http://prntscr.com/shiw2u
+        Nismo sigurni da li sam dobro razumeli ovaj deo http://prntscr.com/shiw2u
         da li to znaci da mu on zapravo da minus ili nesto oko formatiranja.
 
-        Ja sam uradio kao da je u pitanju minus, pa je potrebno samo negativan broj
+        Uradili smo kao da je u pitanju minus, pa je potrebno samo negativan broj
         prebaciti u pozitivan.
      */
     private double getStateForPrinting(Double state){
